@@ -1,7 +1,7 @@
 var inquirer = require('inquirer');
 inquirer
   .prompt([
-    /* Pass your questions in here */
+    
     {
         type: 'input',
         name: 'input_type',
@@ -24,7 +24,7 @@ inquirer
     },
   ])
   .then((answers) => {
-    // Use user feedback for... whatever!!
+    
     console.log(answers)
   })
   
